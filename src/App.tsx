@@ -9,7 +9,7 @@ import Resume from './Pages/Resume/Resume'
 export default function App() {
   return (
     <div>
-         
+
       <nav>
       <Link to="/" style={{ marginRight: '16px' }}>Home</Link>
       <Link to="/Ecom" style={{ marginRight: '16px' }}>Ecom</Link>
@@ -20,7 +20,7 @@ export default function App() {
       <Routes>
         <Route path="/" element={<Home />} /> 
         <Route path="/Ecom" element={< Ecom />} />
-        <Route path="/feature" element={< Feature />} />
+        <Route path="/Feature" element={< Feature />} />
         <Route path="/Resume" element={< Resume/>} />
       </Routes>
     </div>
