@@ -2,6 +2,7 @@
   "name": "jsresume",
   "private": true,
   "version": "0.0.0",
+  "homepage": "/jsresume",
   "type": "module",
   "scripts": {
     "dev": "vite",
