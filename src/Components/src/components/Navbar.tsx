@@ -3,18 +3,18 @@ import { Link } from "react-router-dom";
 function Navbar() {
     return (
         <nav style={{
-            background: 'blue',
-            color: 'white',
-            padding: '15px',
-            display: 'flex',
-            justifyContent: 'space-between'
+            background: 'white',
+            color: 'black',
+            padding: '2px',
+            justifyContent: 'space-between',
+            width: 2000
         }}>
-            <div style={{fontWeight: 'bold' }}>MyApp</div>
+            <div style={{fontWeight: 'bold'}}></div>
             <div>
-                <Link to="/ecom" style={{ marginRight: '15px', color: 'white' }}>Ecom</Link>
-                <Link to="/feature" style={{ marginRight: '15px', color: 'white' }}>Feature</Link>
-                <Link to="/resume" style={{ marginRight: '15px', color: 'white' }}>Resume</Link>
-                <Link to="/login" style={{ color: 'white' }}>Login</Link>
+                <Link to="/ecom" style={{ marginRight: '15px', color: 'black' }}>Ecom</Link>
+                <Link to="/feature" style={{ marginRight: '15px', color: 'black' }}>Feature</Link>
+                <Link to="/resume" style={{ marginRight: '15px', color: 'black' }}>Resume</Link>
+                <Link to="/login" style={{ color: 'black' }}>Login</Link>
             </div>
         </nav>
     );
