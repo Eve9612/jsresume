@@ -1,3 +1,4 @@
+ 
 :root {
   font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
   line-height: 1.0;
@@ -5,7 +6,7 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  /* background-color: #242424; */
+  background-color: #242424; 
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -23,10 +24,12 @@ a:hover {
 }
 
 body {
-  margin: 0;
+  margin: 0 auto;
   display: flex;
   min-width: 320px;
   min-height: 100vh;
+  border: red 1px solid; 
+  background-color: green
 }
 
 h1 {
@@ -51,32 +54,4 @@ button:hover {
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
-}
-
-@media (prefers-color-scheme: light) {
-  body {
-    background: linear-gradient(270deg, #4fe829, #00ffff, #ff00ff); /* Ombre gradient */
-    background-size: 600% 600%; /* Needed for smooth animation */
-    animation: gradientAnimation 10s ease infinite;
-  }
-
-  a:hover {
-    color: #747bff;
-  }
-
-  button {
-    background-color: #f9f9f9;
-  }
-
-  @keyframes gradientAnimation {
-    0% {
-      background-position: 0% 50%;
-    }
-    50% {
-      background-position: 100% 50%;
-    }
-    100% {
-      background-position: 0% 50%;
-    }
-  }
 }

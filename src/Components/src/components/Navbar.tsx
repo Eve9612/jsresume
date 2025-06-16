@@ -7,7 +7,9 @@ function Navbar() {
             color: 'black',
             padding: '2px',
             justifyContent: 'space-between',
-            width: 2000
+            width: "100%",
+            display: "flex" 
+            
         }}>
             <div style={{fontWeight: 'bold'}}></div>
             <div>
