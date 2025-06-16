@@ -48,6 +48,34 @@ button {
   cursor: pointer;
   transition: border-color 0.25s;
 }
+
+@media (prefers-color-scheme: light) {
+  body {
+    background: linear-gradient(270deg, #4fe829, #00ffff, #ff00ff); /* Ombre gradient */
+    background-size: 600% 600%; /* Needed for smooth animation */
+    animation: gradientAnimation 10s ease infinite;
+  }
+
+  a:hover {
+    color: #747bff;
+  }
+
+  button {
+    background-color: #f9f9f9;
+  }
+
+  @keyframes gradientAnimation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+}
 button:hover {
   border-color: #646cff;
 }
