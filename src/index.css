@@ -28,8 +28,8 @@ body {
   display: flex;
   min-width: 320px;
   min-height: 100vh;
-  border: red 1px solid; 
-  background-color: green
+  /* border: red 1px solid;  */
+  /* background-color: green */
 }
 
 h1 {

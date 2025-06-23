@@ -13,7 +13,7 @@ export default function App() {
     <div>
       <Navbar/>
       
-      <div style={{padding: '20px'}}>
+      <div style={{padding: '15px'}}>
       <Routes>
         <Route path="/" element={<Home />} /> 
         <Route path="/Ecom" element={< Ecom />} />
