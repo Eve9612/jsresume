@@ -1,0 +1,59 @@
+[
+    {
+      "id": 1,
+      "name": "Wireless Noise-Canceling Headphones",
+      "description": "Experience immersive sound with active noise cancellation.",
+      "price": 199.99,
+      "currency": "USD",
+      "category": "Electronics",
+      "brand": "SoundMax",
+      "rating": 4.6,
+      "stock": 15,
+      "images": [
+        "https://example.com/images/headphones1.jpg",
+        "https://example.com/images/headphones1_alt.jpg"
+      ],
+      "variants": {
+        "color": ["Black", "White", "Blue"]
+      },
+      "tags": ["audio", "wireless", "headphones", "noise-canceling"]
+    },
+    {
+      "id": 2,
+      "name": "Men's Running Shoes",
+      "description": "Lightweight and breathable sneakers for daily running.",
+      "price": 89.99,
+      "currency": "USD",
+      "category": "Footwear",
+      "brand": "RunFast",
+      "rating": 4.3,
+      "stock": 42,
+      "images": [
+        "https://example.com/images/shoes1.jpg"
+      ],
+      "variants": {
+        "color": ["Red", "Black", "Gray"],
+        "size": ["8", "9", "10", "11", "12"]
+      },
+      "tags": ["shoes", "men", "running", "fitness"]
+    },
+    {
+      "id": 3,
+      "name": "Stainless Steel Water Bottle",
+      "description": "Keep your drinks hot or cold with this 500ml insulated bottle.",
+      "price": 24.99,
+      "currency": "USD",
+      "category": "Home & Kitchen",
+      "brand": "HydraPlus",
+      "rating": 4.8,
+      "stock": 80,
+      "images": [
+        "https://example.com/images/bottle1.jpg"
+      ],
+      "variants": {
+        "color": ["Silver", "Blue", "Pink"]
+      },
+      "tags": ["water bottle", "hydration", "eco-friendly"]
+    }
+  ]
+  
