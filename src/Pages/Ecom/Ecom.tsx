@@ -1,12 +1,13 @@
-import ProductList from '../../Components/ProductList';
+import React from "react";
+import { ProductGrid } from "../../Components/ProductGrid";
 
-function Ecom(){
-    return (
-        <div>
-            <ProductList/>
-        </div>
-    )
-}
-
+const Ecom = () => {
+  return (
+    <div>
+      <h1 style={{ textAlign: "center", marginTop: "24px" }}>🛍️ Shop My Amazon Storefront</h1>
+      <ProductGrid />
+    </div>
+  );
+};
 
 export default Ecom;
