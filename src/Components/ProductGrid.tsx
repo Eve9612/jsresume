@@ -13,6 +13,7 @@ export const ProductGrid: React.FC = () => {
         padding: "24px",
       }}
     >
+      {/* // The .map is an automatic for loop that generates info  */}
       {products.map((product) => (
         <ProductCard key={product.id} product={product} />
       ))}

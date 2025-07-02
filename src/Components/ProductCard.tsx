@@ -6,7 +6,7 @@ interface Props {
   product: Product;
 }
 
-export const ProductCard: React.FC<Props> = ({ product }) => {
+export const ProductCard: React.FC<Props> = ({ product}) => {
   return (
     <div className="product-card">
       <img src={product.image} alt={product.title} className="product-image" />
