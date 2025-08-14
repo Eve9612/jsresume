@@ -34,7 +34,7 @@ function Home() {
         bottom: "150px",
         left:  "900px"
         }}>
-        <ChristmasCountdown />
+        <ChristmasCountdown /> 
       </div>
     </div>
   );
