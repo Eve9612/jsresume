@@ -1,10 +1,33 @@
-function Home () {
-    return(
-        <div style={{maxWidth: '700px', margin: '300 auto', fontFamily: 'San-Serif', padding: '1px'}}> Welcome, To Evelyn's First Website!
-            <h1>
-            </h1>
-        </div>
-    );
+// Main Page
+function Home() {
+  return (
+    <div 
+      style={{
+        width: "100vw",
+        height: "100vh",
+        backgroundImage: "url(public/Wallpaper.webp)",
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center",
+        color: "white",
+        fontFamily: "Arial, sans-serif",
+      }}
+      >
+      <h1 style={{ fontSize: "4rem", textShadow: "2px 2px 4px rgba(0,0,0,0.7)", position: "absolute", top: "120px", left: "100px",}}>
+        Welcome to Evelyn's <br></br>
+        First React Website!
+      </h1>
+      <h3 style={{position: "absolute", top: "312px", left: "100px"}}>
+          The purpose of this website is to showcase what I learned <br></br> 
+          in my 24-week JavaScript course. Please use the menu at <br></br>
+          the top to navigate through my Ecom, Feature, Resume, <br></br>
+          and Registration pages!
+      </h3>
+
+    </div>
+  );
 }
 
-export default Home
+export default Home;
