@@ -1,6 +1,10 @@
+import { useState, useEffect } from "react";
+import ChristmasCountdown from "../../Components/ChdristmasCountdown";
+
 // Main Page
 function Home() {
   return (
+    
     <div 
       style={{
         width: "100vw",
@@ -25,7 +29,13 @@ function Home() {
           the top to navigate through my Ecom, Feature, Resume, <br></br>
           and Registration pages!
       </h3>
-
+      <div style={{ 
+        position: "absolute", 
+        bottom: "150px",
+        left:  "900px"
+        }}>
+        <ChristmasCountdown />
+      </div>
     </div>
   );
 }
