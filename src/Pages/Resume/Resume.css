@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     padding: 40px 20px;
-    background-color: #706969;
+    background-color: #C19A6B;
     min-height: 100vh;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
@@ -25,7 +25,7 @@
   
   .headline {
     font-size: 18px;
-    color: #666;
+    color: #000000;
     margin-bottom: 30px;
   }
   

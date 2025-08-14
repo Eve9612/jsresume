@@ -5,8 +5,8 @@
   font-weight: 400;
 
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #706969; 
+  color: rgba(0, 0, 0, 0.87);
+  background-color: #C19A6B; 
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -15,7 +15,7 @@
 }
 
 a {
-  font-weight: 300;
+  font-weight: 300; 
   color: #0812cb;
   text-decoration: underline;
 }
@@ -59,13 +59,14 @@ html, body {
 
 .app-container {
   display: flex;
-  flex-direction: column;
+  flex-direction: column ;
   min-height: 100vh;
+  min-width: 10vh;
 }
 
 .main-content {
   flex: 1;
-  padding: 15px;
+  /* padding: 15px; */
 }
 
 

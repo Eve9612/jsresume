@@ -11,7 +11,7 @@ function Home() {
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
-        color: "white",
+        // color: "white",
         fontFamily: "Arial, sans-serif",
       }}
       >
