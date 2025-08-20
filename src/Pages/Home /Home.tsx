@@ -27,7 +27,7 @@ function Home() {
           The purpose of this website is to showcase what I learned <br></br> 
           in my 24-week JavaScript course. Please use the menu at <br></br>
           the top to navigate through my Ecom, Feature, Resume, <br></br>
-          and Registration pages!
+          and Login pages!
       </h3>
       <div style={{ 
         position: "absolute", 
