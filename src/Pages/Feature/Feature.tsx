@@ -1,6 +1,6 @@
 const Feature = () => ( 
 
-    <div style={{maxWidth: '700px', margin: '0 auto', fontFamily: 'Arial, sans-serif', padding: '20px'}}>Testing
+    <div style={{maxWidth: '700px', margin: '0 auto', fontFamily: 'Arial, sans-serif', padding: '20px'}}>
         <h1 style={{fontSize: '28px', fontWeight: 'bold', textAlign: 'center'}}>Humanity First Employment 
         </h1>
         <p style={{textAlign: 'center', marginBottom: '30',}}>
@@ -9,16 +9,15 @@ const Feature = () => (
 
         {[
         {
-            title: "1. Support for Employers",
-            description: "We help manufacturers hire reliable immigrant workers and offer tools to improve retention and productivity."
+            title: "1. What is your product",
+            description: "We help manufacturers hire reliable job seekers and offer tools to improve retention and productivity."
          },
         {
             title: "2. Job Placement Services",
-            description: "We connect qualified foreign-born job seekers with factory jobs that pay $15 to $20 per hour."
-        },
+            description: "Our services include recrutiment & screening, onoarding & compliance and integration & retention" 
         {
             title: "3. Tiered Pricing Model",
-            description: "Employers can choose from basic, standard, or premium hiring packages depending on their needs and size."
+            description: "$3,000 flat rate for nonprofessional roles, and 15% of first year salary for professional roles"
         }
             ].map((feature, index) => (
             <div key={index} style={{ marginBottom: '20px', padding: '10px', backgroundColor: 'white', color: 'black' }}>
