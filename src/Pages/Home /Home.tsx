@@ -8,7 +8,7 @@ function Home() {
       style={{
         width: "100vw",
         height: "100vh",
-        backgroundImage: "url(public/Wallpaper.webp)",
+        backgroundImage: `url(${process.env.PUBLIC_URL}/Wallpaper.webp)`,
         backgroundSize: "cover",
         backgroundPosition: "center",
         display: "flex",
