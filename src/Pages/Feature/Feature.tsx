@@ -14,10 +14,11 @@ const Feature = () => (
          },
         {
             title: "2. Job Placement Services",
-            description: "Our services include recrutiment & screening, onoarding & compliance and integration & retention" 
+            description: "Our services include recruitment & screening, onboarding & compliance and integration & retention"
+        },
         {
             title: "3. Tiered Pricing Model",
-            description: "$3,000 flat rate for nonprofessional roles, and 15% of first year salary for professional roles"
+            description: "We charge a flat rate of only $3,000 for nonprofessional roles and 15% of first year's income for nonprofessional roles."
         }
             ].map((feature, index) => (
             <div key={index} style={{ marginBottom: '20px', padding: '10px', backgroundColor: 'white', color: 'black' }}>
