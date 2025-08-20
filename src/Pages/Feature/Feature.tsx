@@ -9,7 +9,7 @@ const Feature = () => (
 
         {[
         {
-            title: "1. What We Do",
+            title: "1. What We Do For You",
             description: "We help manufacturers hire reliable job seekers and offer tools to improve retention and productivity."
          },
         {
